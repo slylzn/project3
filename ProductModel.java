@@ -1,3 +1,4 @@
+
 public class ProductModel {
     public int mProductID;
     public String mName, mVendor, mDescription;
@@ -11,4 +12,6 @@ public class ProductModel {
         sb.append(mQuantity).append(")");
         return sb.toString();
     }
+
+
 }
